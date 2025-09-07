@@ -1,0 +1,40 @@
+.error-message {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    color: white;
+    background-color: rgba(0, 0, 0, .45);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, .45);
+    border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+#type:focus {
+    border-color: blue;
+    background-color: rgba(0, 0, 0, .55);
+    color: white;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, .45);
+    border-radius: 3px;
+    color: gray;
+}
