@@ -14,55 +14,6 @@ For data storage, we utilize MongoDB, which allows for flexible and efficient ha
 - Real-Time Gameplay: Seamless real-time updates during the game, ensuring smooth interaction between players.
 - Scalability: A backend built with Node.js and Express.js that can handle multiple concurrent users efficiently
 
-## Demo video
-
-https://github.com/AdeshGhadage/Chess/assets/110734052/3fc62162-8f56-4244-bec5-9a06ac0966af
-
-## Installation
-
-### Frontend Setup (register.html using live server)
-
-1. **Clone this repository:**
-
-    ```bash
-    git clone https://github.com/AdeshGhadage/Chess.git
-    ```
-
-2. **Start register.html file using live server:**
-   
-   - After cloning the repository, navigate to the directory where `register.html` is located.
-   - Use a live server extension in your preferred code editor (such as Visual Studio Code) or start a live server from the terminal.
-
-### Backend Setup
-
-1. **Clone the backend repository:**
-
-    ```bash
-    git clone https://github.com/AdeshGhadage/Chess.git
-    ```
-
-2. **Install MongoDB:**
-
-   - Install MongoDB on your computer by following the instructions specific to your operating system:
-   
-     - For macOS and Linux, you can use Homebrew:
-       ```bash
-       brew install mongodb-community
-       ```
-     
-     - For Windows, download the MongoDB installer from the official MongoDB website and follow the installation instructions.
-
-3. **Open terminal in the root folder of the backend repository and follow these steps:**
-
-   - **Install all the required packages:**
-     ```bash
-     npm install
-     ```
-
-   - **Start the server:**
-     ```bash
-     npm start
-     ```
 
 ### Usage
 
@@ -86,3 +37,4 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out.
+
